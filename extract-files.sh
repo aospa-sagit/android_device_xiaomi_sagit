@@ -13,6 +13,8 @@ function blob_fixup() {
             ;;
         vendor/lib64/com.fingerprints.extension@1.0.so)
             "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
+            "${PATCHELF}" --remove-needed "libhidlbase.so" "${2}"
+            sed -i "s/libhidltransport.so/libhidlbase-v32.so\x00/" "${2}"
             ;;
         vendor/lib64/libgf_hal.so)
             "${PATCHELF}" --remove-needed "libpowermanager.so" "${2}"

@@ -17,6 +17,6 @@
 <resources>
 
     <!-- Fingerprint from stock ROM -->
-    <string name="stock_fingerprint" translatable="false">Xiaomi/sagit/sagit:8.0.0/OPR1.170623.027/V9.2.3.0.OCAMIEK:user/release-keys</string>
+    <string name="stock_fingerprint" translatable="false">Xiaomi/sagit/sagit:9/PKQ1.190118.001/V11.0.6.0.PCAMIXM:user/release-keys</string>
 
 </resources>

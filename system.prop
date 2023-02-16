@@ -1,2 +1,2 @@
 # Button
-qemu.hw.mainkeys=1
+qemu.hw.mainkeys=0

@@ -32,6 +32,7 @@ TARGET_OTA_ASSERT_DEVICE := sagit
 TARGET_SCREEN_DENSITY := 480
 
 # Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # SELinux
